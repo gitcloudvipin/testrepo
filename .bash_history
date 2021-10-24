@@ -204,3 +204,97 @@ vi bucket.tf
 terraform apply
 aws s3api delete-object --bucket mybucketokuty-001 --key vip.txt
 aws s3api delete-object --bucket mybucketokuty-001 --key vip.txt --profile=markone
+cd s3_bucket/
+terraform plan --help
+terraform plan -destroy
+terraform destroy
+git push git@github.com:gitcloudvipin/testrepo.git master
+cd ..
+ll
+git add .
+git status
+git commit -m "more changes"
+git push -u origin master
+git push -u origin master git@github.com:gitcloudvipin/testrepo.git
+git push origin master git@github.com:gitcloudvipin/testrepo.git
+git push master git@github.com:gitcloudvipin/testrepo.git
+git push  git@github.com:gitcloudvipin/testrepo.git master
+ls
+mkdir ec2-instance
+cd ec2-instance/
+cd ..
+aws ec2 help | grep "key-pair"
+aws ec2 help | grep "key-pair"
+aws ec2 create-key-pair --key-name mynewkey
+aws ec2 create-key-pair --key-name mynewkey --profile=markone
+ls
+cd ec2-instance/
+ls
+vi provider.tf
+vim security-group.tf
+vi variable.tf
+vi variable-ami.tf
+aws ec2 describe-vpcs
+aws ec2 describe-vpcs --profile=markone
+ll
+vi variable.tf 
+cat variable
+cat variable.tf 
+cat security-group.tf 
+vi ec2-instance.tf
+ll
+cat security-group.tf 
+vi ec2-instance.tf
+terraform plan
+vi ec2-instance.tf
+vi variable.tf 
+terraform plan
+terraform init
+terraform plan
+vi ec2-instance.tf
+terraform plan
+cd ec2-instance/
+terraform plan
+vi security-group.tf 
+terraform plan
+vi security-group.tf 
+terraform plan
+vi security-group.tf 
+terraform plan
+vi ec2-instance.tf 
+terraform plan
+vi ec2-instance.tf 
+terraform plan
+cat variable-ami.tf 
+vim variable-ami.tf 
+terraform plan
+cat variable-ami.tf 
+vi ec2-instance.tf 
+terraform plan
+terraform apply
+ssh 65.0.76.190
+ll
+ls
+cat > mynewkey.pem
+ssh -i mynewkey.pem 65.0.76.190
+chmod 0600 mynewkey.pem 
+ssh -i mynewkey.pem 65.0.76.190
+ssh -i mynewkey.pem ec-user@65.0.76.190
+cat mynewkey.pem 
+vi mynewkey.pem 
+aws ec2 describe-key-pairs --key-name mynew
+aws ec2 delete-key-pair --key-name mykeypair --profile=markone
+aws ec2 delete-key-pair --key-name mynewkwy --profile=markone
+aws ec2 describe-key-pairs --key-name mynewkey --profile=markone
+aws ec2 delete-key-pair --key-name mynewkey --profile=markone
+aws ec2 describe-key-pairs --key-name mynewkey --profile=markone
+aws ec2 create-key-pair --key-name mynewkey  --query 'KeyMaterial' --output text > mynewkey.pem --profile=markone
+ll
+date
+chmod 0400 mynewkey.pem 
+ssh -i mynewkey.pem ec-user@65.0.76.190
+terraform destroy
+terraform apply
+ssh -i mynewkey.pem ec-user@15.207.72.110
+ssh -i mynewkey.pem ec2-user@15.207.72.110
+terraform destroy

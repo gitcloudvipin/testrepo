@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1635053256,,"wq!"
+|2,0,1635061252,,"wq!"
 :q!
 |2,0,1635051278,,"q!"
 
@@ -44,36 +44,78 @@
 |3,0,2,1,12,0,1635053104,"resource \"aws_s3_bucket\" \"mybucket\" {","","   bucket = \"mybucketokuty-001\"","   acl = \"private\"","","","   tags = {","","    name = \"bucket\"","    Environment = \"dev\"","","}"
 
 # File marks:
-'0  17  48  ~/s3_bucket/bucket.tf
-|4,48,17,48,1635054079,"~/s3_bucket/bucket.tf"
-'1  27  0  ~/s3_bucket/bucket.tf
-|4,49,27,0,1635053256,"~/s3_bucket/bucket.tf"
-'2  4  8  ~/s3_bucket/bucket.tf
-|4,50,4,8,1635051986,"~/s3_bucket/bucket.tf"
-'3  4  8  ~/s3_bucket/bucket.tf
-|4,51,4,8,1635051986,"~/s3_bucket/bucket.tf"
+'0  6  5  ~/ec2-instance/variable-ami.tf
+|4,48,6,5,1635061252,"~/ec2-instance/variable-ami.tf"
+'1  2  25  ~/ec2-instance/security-group.tf
+|4,49,2,25,1635059868,"~/ec2-instance/security-group.tf"
+'2  17  48  ~/s3_bucket/bucket.tf
+|4,50,17,48,1635054079,"~/s3_bucket/bucket.tf"
+'3  27  0  ~/s3_bucket/bucket.tf
+|4,51,27,0,1635053256,"~/s3_bucket/bucket.tf"
 '4  4  8  ~/s3_bucket/bucket.tf
 |4,52,4,8,1635051986,"~/s3_bucket/bucket.tf"
-'5  15  0  ~/s3_bucket/bucket.tf
-|4,53,15,0,1635051379,"~/s3_bucket/bucket.tf"
-'6  15  0  ~/s3_bucket/bucket.tf
-|4,54,15,0,1635051379,"~/s3_bucket/bucket.tf"
+'5  4  8  ~/s3_bucket/bucket.tf
+|4,53,4,8,1635051986,"~/s3_bucket/bucket.tf"
+'6  4  8  ~/s3_bucket/bucket.tf
+|4,54,4,8,1635051986,"~/s3_bucket/bucket.tf"
 '7  15  0  ~/s3_bucket/bucket.tf
 |4,55,15,0,1635051379,"~/s3_bucket/bucket.tf"
-'8  10  21  ~/s3_bucket/bucket.tf
-|4,56,10,21,1635051323,"~/s3_bucket/bucket.tf"
-'9  11  21  ~/s3_bucket/bucket.tf
-|4,57,11,21,1635051323,"~/s3_bucket/bucket.tf"
+'8  15  0  ~/s3_bucket/bucket.tf
+|4,56,15,0,1635051379,"~/s3_bucket/bucket.tf"
+'9  15  0  ~/s3_bucket/bucket.tf
+|4,57,15,0,1635051379,"~/s3_bucket/bucket.tf"
 
 # Jumplist (newest first):
+-'  6  5  ~/ec2-instance/variable-ami.tf
+|4,39,6,5,1635061252,"~/ec2-instance/variable-ami.tf"
+-'  1  0  ~/ec2-instance/variable-ami.tf
+|4,39,1,0,1635061237,"~/ec2-instance/variable-ami.tf"
+-'  2  25  ~/ec2-instance/security-group.tf
+|4,39,2,25,1635059868,"~/ec2-instance/security-group.tf"
+-'  2  25  ~/ec2-instance/security-group.tf
+|4,39,2,25,1635059868,"~/ec2-instance/security-group.tf"
+-'  1  0  ~/ec2-instance/security-group.tf
+|4,39,1,0,1635059699,"~/ec2-instance/security-group.tf"
+-'  1  0  ~/ec2-instance/security-group.tf
+|4,39,1,0,1635059699,"~/ec2-instance/security-group.tf"
 -'  17  48  ~/s3_bucket/bucket.tf
 |4,39,17,48,1635054079,"~/s3_bucket/bucket.tf"
+-'  17  48  ~/s3_bucket/bucket.tf
+|4,39,17,48,1635054079,"~/s3_bucket/bucket.tf"
+-'  17  48  ~/s3_bucket/bucket.tf
+|4,39,17,48,1635054079,"~/s3_bucket/bucket.tf"
+-'  17  48  ~/s3_bucket/bucket.tf
+|4,39,17,48,1635054079,"~/s3_bucket/bucket.tf"
+-'  27  0  ~/s3_bucket/bucket.tf
+|4,39,27,0,1635053256,"~/s3_bucket/bucket.tf"
+-'  27  0  ~/s3_bucket/bucket.tf
+|4,39,27,0,1635053256,"~/s3_bucket/bucket.tf"
+-'  27  0  ~/s3_bucket/bucket.tf
+|4,39,27,0,1635053256,"~/s3_bucket/bucket.tf"
 -'  27  0  ~/s3_bucket/bucket.tf
 |4,39,27,0,1635053256,"~/s3_bucket/bucket.tf"
 -'  4  8  ~/s3_bucket/bucket.tf
 |4,39,4,8,1635053092,"~/s3_bucket/bucket.tf"
 -'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635053092,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635053092,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635053092,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
 |4,39,4,8,1635053016,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635053016,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635053016,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635053016,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635051986,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635051986,"~/s3_bucket/bucket.tf"
+-'  4  8  ~/s3_bucket/bucket.tf
+|4,39,4,8,1635051986,"~/s3_bucket/bucket.tf"
 -'  4  8  ~/s3_bucket/bucket.tf
 |4,39,4,8,1635051986,"~/s3_bucket/bucket.tf"
 -'  15  0  ~/s3_bucket/bucket.tf
@@ -82,6 +124,42 @@
 |4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
 -'  15  0  ~/s3_bucket/bucket.tf
 |4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  15  0  ~/s3_bucket/bucket.tf
+|4,39,15,0,1635051379,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/bucket.tf
+|4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
 -'  1  0  ~/s3_bucket/bucket.tf
 |4,39,1,0,1635051373,"~/s3_bucket/bucket.tf"
 -'  1  0  ~/s3_bucket/bucket.tf
@@ -94,6 +172,42 @@
 |4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
 -'  10  21  ~/s3_bucket/bucket.tf
 |4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  10  21  ~/s3_bucket/bucket.tf
+|4,39,10,21,1635051334,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
+-'  11  21  ~/s3_bucket/bucket.tf
+|4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
 -'  11  21  ~/s3_bucket/bucket.tf
 |4,39,11,21,1635051323,"~/s3_bucket/bucket.tf"
 -'  11  21  ~/s3_bucket/bucket.tf
@@ -112,162 +226,73 @@
 |4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
 -'  13  0  ~/s3_bucket/bucket.tf
 |4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
--'  1  0  ~/s3_bucket/variable.tf
-|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
 -'  13  0  ~/s3_bucket/bucket.tf
-|4,39,13,0,1635051256,"~/s3_bucket/bucket.tf"
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
 -'  13  0  ~/s3_bucket/bucket.tf
-|4,39,13,0,1635051256,"~/s3_bucket/bucket.tf"
--'  1  0  ~/s3_bucket/bucket.tf
-|4,39,1,0,1635051000,"~/s3_bucket/bucket.tf"
--'  1  0  ~/s3_bucket/bucket.tf
-|4,39,1,0,1635051000,"~/s3_bucket/bucket.tf"
--'  1  0  ~/s3_bucket/bucket.tf
-|4,39,1,0,1635051000,"~/s3_bucket/bucket.tf"
--'  1  0  ~/s3_bucket/bucket.tf
-|4,39,1,0,1635050900,"~/s3_bucket/bucket.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  46  21  ~/output.tf
-|4,39,46,21,1635048428,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
--'  40  0  ~/output.tf
-|4,39,40,0,1635048374,"~/output.tf"
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  12  0  ~/s3_bucket/bucket.tf
+|4,39,12,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  13  0  ~/s3_bucket/bucket.tf
+|4,39,13,0,1635051293,"~/s3_bucket/bucket.tf"
+-'  1  0  ~/s3_bucket/variable.tf
+|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
+-'  1  0  ~/s3_bucket/variable.tf
+|4,39,1,0,1635051278,"~/s3_bucket/variable.tf"
 
 # History of marks within files (newest to oldest):
+
+> ~/ec2-instance/variable-ami.tf
+	*	1635061251	0
+	"	6	5
+	^	6	6
+	.	6	5
+	+	5	16
+	+	6	5
+
+> ~/ec2-instance/security-group.tf
+	*	1635059867	0
+	"	2	25
+	^	2	26
+	.	2	25
+	+	30	0
+	+	4	24
+	+	9	26
+	+	10	26
+	+	12	34
+	+	13	26
+	+	12	36
+	+	8	32
+	+	28	20
+	+	1	39
+	+	2	25
 
 > ~/s3_bucket/bucket.tf
 	*	1635053018	0
