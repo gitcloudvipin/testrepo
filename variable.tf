@@ -31,3 +31,11 @@ variable "boolvariable"{
   default = false
 
 }
+
+// this is the example for using the variable form user
+
+
+variable "Enter_data" {
+
+    type = string
+}

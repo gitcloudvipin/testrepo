@@ -30,3 +30,18 @@ output "mybooloutput" {
     value = var.boolvariable
 
 }
+
+
+// this block is for user output
+
+output "enter_data" {
+
+       value = var.Enter_data
+}
+
+
+output "sensitive_data" { 
+
+     sensitive = true
+     value = var.Enter_data
+}
