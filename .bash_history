@@ -298,3 +298,240 @@ terraform apply
 ssh -i mynewkey.pem ec-user@15.207.72.110
 ssh -i mynewkey.pem ec2-user@15.207.72.110
 terraform destroy
+cd ec2-instance/
+ll
+rm -rf mynewkey.pem 
+cd ..
+git commit -am "new data"
+git push  git@github.com:gitcloudvipin/testrepo.git master
+cd .ssh/
+ls
+cat id_rsa.pub 
+cd ..
+git push  git@github.com:gitcloudvipin/testrepo.git master
+git add .
+git status
+git commit -m "new"
+git push  git@github.com:gitcloudvipin/testrepo.git master
+ls
+ls -lrth
+vi variable.tf 
+vi access.tf 
+aws iam --create-user robin
+aws iam create-user --user-name robin
+aws iam create-user --user-name robin --profile=markone
+aws iam create-group --group-name ec2-admin
+aws iam create-group --group-name ec2-admin --profile=markone
+aws iam attach-group-policy --policy-arn arn:aws:iam::aws:policy/AdministratorAccess --group-name ec2-admin --profile=markone
+aws iam add-user-to-group --user-name robin --group-name ec2-admin
+aws iam add-user-to-group --user-name robin --group-name ec2-admin --profile=markone
+aws iam create-access-key --user-name robin
+aws iam create-access-key --user-name robin --profile=markone
+aws configure
+aws configure --profile=markrobin
+aws iam list-users --profile=markone
+aws iam list-users --profile=markrobin
+ls
+mkdir terraform_test
+cd terraform_test/
+ls
+mkdir provider
+cd provider/
+vim main.tf
+vi variable.tf
+cd ..
+mkdir ec2_instance
+cd ec2_instance/
+ls
+vim main.tf
+cd terraform_test/
+ls
+cd ec2_instance/
+ls
+vim main.tf
+vim variable_configuration.tf
+vim configuration.tf
+vim locals.tf
+ls
+vim main.tf
+vim variable_configuration.tf
+vi configuration.tf 
+cd ..
+ls
+vi main.tf
+cd terraform_test/Terraform-Count-ForEach/
+ll
+vim main.tf 
+terraform init
+terraform plan -var-file=dev.tfvars 
+vim main.tf 
+terraform plan -var-file=dev.tfvars 
+vim main.tf 
+terraform plan -var-file=dev.tfvars 
+vim main.tf 
+terraform plan -var-file=dev.tfvars 
+vim main.tf 
+terraform plan -var-file=dev.tfvars 
+terraform apply -var-file=dev.tfvars 
+vim main.tf 
+terraform apply -var-file=dev.tfvars 
+vim main.tf 
+terraform apply -var-file=dev.tfvars 
+cd terraform_test/
+ll
+vim main.tf
+terraform init
+vim ec2_instance/configuration.tf
+terraform init
+vim ec2_instance/locals.tf
+terraform init
+vim  ec2_instance/main.tf
+terraform init
+vim ec2_instance/configuration.tf
+mv ec2_instance/configuration.tf ec2_instance/configuration.tfvars
+terraform init
+vim  ec2_instance/variable_configuration.tf
+terraform init
+terraform plan
+ls
+vim main.tf 
+terraform plan
+vim main.tf 
+terraform plan
+terraform init
+terraform plan
+vim  ec2_instance/variable_configuration.tf
+vim  ec2_instance/configuration.tfvars 
+vim provider/main.tf 
+vim provider/variable.tf 
+terraform plan
+vim provider/main.tf 
+vim provider/variable.tf 
+vim ec2_instance/locals.tf
+terraform plan
+vim ec2_instance/locals.tf
+terraform plan
+vim ec2_instance/locals.tf
+vim  ec2_instance/configuration.tfvars 
+vim ec2_instance/locals.tf
+terraform plan
+terraform plan -var-file=ec2_instance/configuration.tfvars
+vim ec2_instance/locals.tf
+vim ec2_instance/configuration.tfvars
+cd ec2_instance/
+ll
+cd ..
+ll
+cd ec2_instance/
+ll
+cat variable_configuration.tf 
+vim variable_configuration.tf 
+ll
+vi configuration.tfvars 
+vim configuration.tfvars 
+vim variable_configuration.tf 
+cd ..
+terraform plan -var-file=ec2_instance/configuration.tfvars
+vim ec2_instance/locals.tf
+terraform plan -var-file=ec2_instance/configuration.tfvars
+vim ec2_instance/configuration.tfvars 
+vim ec2_instance/locals.tf
+terraform plan -var-file=ec2_instance/configuration.tfvars
+vim ec2_instance/locals.tf
+terraform plan -var-file=ec2_instance/configuration.tfvars
+vim ec2_instance/variable_configuration.tf 
+terraform plan 
+terraform plan --var-file=ec2_instance/configuration.tfvars
+ll
+vim main.tf 
+terraform plan 
+terraform plan --var-file=ec2_instance/configuration.tfvars
+ls
+rm -rf*
+ll 
+rm -rf *
+ls
+git clone https://github.com/AKSarav/Terraform-Count-ForEach
+ls
+cd Terraform-Count-ForEach/
+ll
+vi dev.tfvars 
+vim main.tf 
+vim variables.tf 
+terraform init
+terraform plan
+terraform plan -var-file=dev.tfvars 
+vim main.tf 
+terraform plan -var-file=dev.tfvars 
+terraform apply -var-file=dev.tfvars 
+terraform destroy
+terraform destroy -var-file=dev.tfvars 
+vim main.tf 
+vim dev.tfvars 
+terraform apply -var-file=dev.tfvars 
+terraform destroy -var-file=dev.tfvars 
+ll
+vim main.tf 
+cd terraform_test/Terraform-Count-ForEach/
+terraform init
+terraform apply -var-file=dev.tfvars 
+vi main.tf
+terraform apply -var-file=dev.tfvars 
+vi main.tf
+terraform apply -var-file=dev.tfvars 
+yum install docker
+systemctl start docker
+ yum install docker* --allowerasing
+systemctl start docker
+docker run -d -h node-1.rabbit                                                 --name rabbit                                                       -p "4369:4369"                                                      -p "5672:5672"                                                      -p "15672:15672"                                                    -p "25672:25672"                                                    -p "35197:35197"                                                    -e "RABBITMQ_USE_LONGNAME=true"                                     -e "RABBITMQ_LOGS=/var/log/rabbitmq/rabbit.log"                     -v /data:/var/lib/rabbitmq            -v /data/logs:/var/log/rabbitmq            rabbitmq:3.6.6-management
+ip addr
+docker scale --help
+df -h
+du -sh /data
+du -sh *
+cd /data/logs
+ls
+cat rabbit.log 
+tail -f rabbit.log 
+free -h
+docker ps
+docker exec -it rabbit bash
+docker ps
+docker restart rabbit
+ls
+cd
+cd terraform_test/
+ls
+cd Terraform-Count-ForEach/
+ls
+terraform apply -var-file=dev.tfvars 
+yum install dcoker -y
+yum install docker -y
+systemctl start docker
+yum config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+yum install docker *
+yum remove docker
+yum install docker *
+ls
+cd terraform_test/
+terrform destroy
+terraform destroy
+terraform destroy --profile=markrobon
+terraform destroy --profile=markrobin
+terraform destroy 
+ls
+cd Terraform-Count-ForEach/
+terraform destroy 
+terraform destroy -var-file=dev.tfvars 
+yum install docker*
+yum remove docker*
+yum install docker*
+yum install docker* --allowerasing
+terraform apply -var-file=dev.tfvars
+cd terraform_test/
+ls
+cd Terraform-Count-ForEach/
+ls
+terraform apply -var-file=dev.tfvars 
+ping http://3.84.188.168:15672/
+ping 192.168.0.104
